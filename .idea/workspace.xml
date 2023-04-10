@@ -10,26 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aec17819-d8de-489f-8ce7-003379573188" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/config/AppInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/springMVC_Hibernate/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/springMVC_Hibernate/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/config/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/springMVC_Hibernate/config/AppInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/springMVC_Hibernate/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/springMVC_Hibernate/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/springMVC_Hibernate/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/springMVC_Hibernate/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/springMVC_Hibernate/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/springMVC_Hibernate/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/luboshnikov/springMVC_Hibernate/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/luban/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar",
+    "last_opened_file_path": "C:/Users/luban/IdeaProjects/PP-2.2.3_SpringMVC_Hibernate",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,6 +83,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "567dc4a9c9623a1ab98266f711f5f828",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -106,13 +100,13 @@
       <recent name="ru.luboshnikov.spingMVC_Hibernate.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.73">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.luboshnikov.spingMVC_Hibernate.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.luboshnikov.springMVC_Hibernate.Main" />
       <module name="PP-2.2.3_SpringMVC_Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.luboshnikov.spingMVC_Hibernate.*" />
+          <option name="PATTERN" value="ru.luboshnikov.springMVC_Hibernate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,19 +219,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680613726931</updated>
-      <workItem from="1680613728451" duration="37579000" />
+      <workItem from="1680613728451" duration="49111000" />
+      <workItem from="1681107204097" duration="4500000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/luboshnikov/spingMVC_Hibernate/Main.java</url>
-          <line>13</line>
+          <url>file://$PROJECT_DIR$/src/main/java/ru/luboshnikov/springMVC_Hibernate/Main.java</url>
+          <line>14</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

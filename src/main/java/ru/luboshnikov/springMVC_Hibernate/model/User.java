@@ -1,4 +1,7 @@
-package ru.luboshnikov.spingMVC_Hibernate.model;
+package ru.luboshnikov.springMVC_Hibernate.model;
+
+
+
 
 
 
@@ -7,8 +10,9 @@ import jakarta.persistence.*;
 
 import java.util.Objects;
 
+
 @Entity
-@Table (name = "cars")
+@Table (name = "users")
 public class User {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)

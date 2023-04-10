@@ -1,6 +1,6 @@
-package ru.luboshnikov.spingMVC_Hibernate.service;
+package ru.luboshnikov.springMVC_Hibernate.service;
 
-import ru.luboshnikov.spingMVC_Hibernate.model.User;
+import ru.luboshnikov.springMVC_Hibernate.model.User;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
-package ru.luboshnikov.spingMVC_Hibernate;
+package ru.luboshnikov.springMVC_Hibernate;
 
-import ru.luboshnikov.spingMVC_Hibernate.model.User;
-import ru.luboshnikov.spingMVC_Hibernate.service.UserService;
-import ru.luboshnikov.spingMVC_Hibernate.service.UserServiceImpl;
+import ru.luboshnikov.springMVC_Hibernate.model.User;
+import ru.luboshnikov.springMVC_Hibernate.service.UserService;
+import ru.luboshnikov.springMVC_Hibernate.service.UserServiceImpl;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +11,10 @@ public class Main {
         user.setName("anton");
         user.setSurname("luboshnikov");
         user.setAge(38);
+
         userService.add(user);
+
         }
+
 
 }

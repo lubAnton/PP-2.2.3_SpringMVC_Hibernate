@@ -1,4 +1,4 @@
-package ru.luboshnikov.spingMVC_Hibernate.config;
+package ru.luboshnikov.springMVC_Hibernate.config;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -13,7 +13,7 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("ru.luboshnikov.spingMVC_Hibernate")
+@ComponentScan("ru.luboshnikov.springMVC_Hibernate")
 public class WebConfig implements WebMvcConfigurer {
 
     private final ApplicationContext applicationContext;

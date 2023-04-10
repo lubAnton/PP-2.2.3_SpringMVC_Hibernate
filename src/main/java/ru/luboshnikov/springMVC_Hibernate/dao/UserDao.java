@@ -1,6 +1,6 @@
-package ru.luboshnikov.spingMVC_Hibernate.dao;
+package ru.luboshnikov.springMVC_Hibernate.dao;
 
-import ru.luboshnikov.spingMVC_Hibernate.model.User;
+import ru.luboshnikov.springMVC_Hibernate.model.User;
 
 import java.util.List;
 
