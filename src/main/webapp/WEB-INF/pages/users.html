@@ -2,14 +2,52 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>AllUsers</title>
+    <title>Список</title>
 </head>
 
 <body>
-<div th:each="user: ${allUsers}"
-     th:text="${user.getId()+' '+user.name()+' '+user.getSurname()+' '+ user.getAge()}">
-</div>
 
+<h2>Список пользователей</h2>
+<br>
+<table>
+
+    <thead>
+        <tr>
+            <th>№</th>
+            <th>Имя</th>
+            <th>Фамилия</th>
+            <th>Возвраст</th>
+            <th>Действия c пользователем</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr th:each="user: ${users}">
+            <form th:action="@{/update}" method="GET">
+                <input type="hidden" name="id" th:value="${user.getId()}"/>
+                <td th:text="${user.getId()}"></td>
+                <td th:text="${user.getName()}"></td>
+                <td th:text="${user.getSurname()}"></td>
+                <td th:text="${user.getAge()}"></td>
+                <td>
+                    <button type="submit">Изменить</button>
+                </td>
+            </form>
+            <form th:action="@{/deleteUser}" th:method="post">
+                <input type="hidden" name="id" th:value="${user.getId()}"/>
+                <input type="hidden" name="_method" th:value="DELETE"/>
+                <td>
+                    <button type="submit">Удалить</button>
+                </td>
+            </form>
+        </tr>
+    </tbody>
+</table>
+<br/>
+<hr/>
+<a th:href="@{/new}">
+    <button type="button">Добавить пользователя</button>
+
+</a>
 </body>
-
 </html>
